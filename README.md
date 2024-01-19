@@ -1,9 +1,54 @@
 CS412 - Machine Learning Project
 --------------------------------
-##Overview
+Overview
+
 With this project, we aimed to predict the first assignment grades of the CS-412 course by using students' ChatGPT conversation histories.
+
 Atahan Bozkuş - 28471
 Emir Ay - 28150
+-------------------------------
+Methodology
+
+1) Data Preparation and Preprocessing
+
+a) Parsing HTML Files
+  The data set used consists of HTML files. In this step, unnecessary data is eliminated and useful data is selected. This process is important to make the data set more manageable and suitable for analysis.
+
+b) Data Cleansing
+  Data cleaning processes are carried out to ensure the quality of the data and make it suitable for analysis. At this stage, noisy and incomplete data are corrected, and formatting and standardization processes are applied.
+
+c) Incomplete Data Processing
+  Handling of missing data is performed to maintain the integrity of the analysis and improve code performance. Missing data are carefully handled to avoid biases and improve the accuracy of the model.
+  
+2) Feature Engineering
+
+a) Tokenization
+  Text data is broken down into smaller pieces (tokens) that can be analyzed. This process allows for more detailed examination and processing of texts.
+
+b) Request Analysis
+  Request analysis is performed to understand user preferences and concepts. This process is important to better adapt to users' needs and preferences.
+
+c) Keyword Analysis
+  Analysis of keywords in texts helps categorize data and better understand the content.
+
+d) Sentiment Analysis
+  It is used to analyze emotional tones in texts and understand users' feelings and attitudes.
+  
+3) Vectorization and Similarity Measurement
+
+a) Cosine Similarity
+  Cosine similarity is used to measure similarities between texts. This metric is especially important in situations such as prompt matching.
+
+b) Vectorization
+  Texts are converted into numerical vectors into a format that machine learning algorithms can process.
+
+3) Model Evaluation
+
+a) Training and Testing Divisions
+  To test the generalization ability of the model, the data set is divided into training and test sets. This stage is critical to evaluate how the model performs on different data.
+
+b) Mean Square Error (MSE)
+  MSE is a metric used to evaluate the performance of the model. A lower MSE value indicates a better fit of the model to the data, which is a factor that increases the success of the model.
 -------------------------------
 1) Library Imports
 Notebook starts by importing various Python libraries. These libraries include common data analysis and machine learning libraries such as matplotlib, seaborn, pandas, numpy, sklearn. This step ensures that the necessary tools are available for the data analysis and modeling process. In particular, the sklearn library offers various functions for model training and evaluation.
