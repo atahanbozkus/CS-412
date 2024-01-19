@@ -4,8 +4,8 @@
 
 With this project, we aimed to predict the first assignment grades of the CS-412 course by using students' ChatGPT conversation histories.
 
-**Atahan Bozkuş - 28471
-**Emir Ay - 28150
+** Atahan Bozkuş - 28471
+** Emir Ay - 28150
 
 
 ## Methodology
@@ -73,7 +73,7 @@ With this project, we aimed to predict the first assignment grades of the CS-412
 - In the model training section, machine learning models are trained and evaluated using various functions of the sklearn library. This process includes the steps of separating the data set into training and test sets, training the model, and evaluating its performance. Model evaluation is typically done using error metrics and cross-validation methods.
 ------------------------------
 7) Conclusion and Evaluation
-- Importing Model Performance Metrics
+- Importing Model Performance Metrics: 
 At the beginning of the notebook, the metrics to be used for model evaluation are imported. In this section, the from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score line makes the Mean Absolute Error (MAE), Mean Squared Error (MSE) and R-Square (R²) metrics ready for use to evaluate the performance of the model. These metrics are standard tools for measuring how accurate the model's predictions are.
-- Calculating and Displaying R-Square Value
+- Calculating and Displaying R-Square Value: 
 In another code cell, the performance of the model on the test data set is evaluated. Here, the R-Square value was calculated using the r2_score function. R-Square is a metric that shows how much of the variance in the data set the model can explain. A high R-Square value indicates that the model explains the data well. It measures whether the model makes predictions on the test set and how compatible these predictions are with the real values. The resulting R-Square value reflects the overall success of the model and is used as an important indicator when evaluating the performance of the model.
