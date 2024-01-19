@@ -10,7 +10,7 @@ With this project, we aimed to predict the first assignment grades of the CS-412
 
 ## Methodology
 
-- **1) Data Preparation and Preprocessing
+**1) Data Preparation and Preprocessing
 
 - a) Parsing HTML Files
   The data set used consists of HTML files. In this step, unnecessary data is eliminated and useful data is selected. This process is important to make the data set more manageable and suitable for analysis.
